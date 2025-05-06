@@ -1,0 +1,43 @@
+body {
+  margin: 0; /* Remove default browser margin */
+  font-family: 'Inter', Helvetica, sans-serif;
+  background: #27292c;
+  /* Apply variable font settings from Google Fonts */
+  font-optical-sizing: auto; /* Recommended for variable fonts */
+  font-weight: 400; /* Set a default weight (adjust as needed) */
+  font-style: normal; /* Set default style */
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  background-color: #21222A; /* Example background color - change as needed */
+  padding: 20px; /* Add padding inside the nav */
+}
+
+.logo {
+  display: flex; /* Arrange children (image and text) in a row */
+  align-items: center; /* Vertically align items in the middle */
+  justify-content: space-between;
+  color: #61DAFB;
+  font-family: 'Inter';
+  font-size:28px;
+}
+
+/* Optional: Adjust image size if needed */
+.logo img {
+  height: 70px; /* Example height, adjust as necessary */
+  color: #61DAFB
+}
+
+/* Example: Make the logo text bolder */
+.logo--text {
+  font-weight: 700; /* Or any other weight available for Inter */
+}
+
+
+main {
+  margin:20px
+}
